@@ -1,4 +1,4 @@
 <%Dir.glob("#{cwd}#{arg}/*.emd").each do |path|-%>
 <%basename = File.basename(path, ".emd")-%>
-[<%=basename-%>](<%="#{arg}/#{basename}.md"%>)<br>
+* [<%=basename-%>](<%="#{arg}/#{basename}.md"%>)
 <%end-%>
