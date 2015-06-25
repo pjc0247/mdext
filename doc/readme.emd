@@ -1,0 +1,11 @@
+readme
+====
+
+usage
+---
+@[embed](../src/main.cpp)
+@[embed](../src/test.rb)
+
+functions
+----
+@[tree](functions)
