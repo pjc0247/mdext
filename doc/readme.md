@@ -17,7 +17,7 @@ puts "hello world"
 
 functions
 ----
-[func1.emd](functions/func1.emd.md)
-[func2.emd](functions/func2.emd.md)
-[func3.emd](functions/func3.emd.md)
+[func1](functions/func1.md)<br>
+[func2](functions/func2.md)<br>
+[func3](functions/func3.md)<br>
 
