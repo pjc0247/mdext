@@ -24,13 +24,13 @@ mdext는 md의 확장 문법처럼 작동하며 아래와 같은 구조를 가�
   tree 템플릿은 지정된 디렉토리의 모든 emd 파일들의 목록으로 치환됩니다.<br>
   tree를 이용하여 자동으로 목차를 생성할 수 있습니다.
 
-* replace
+* __replace__
   ```md
   @[replace](hey.emd)
   ```
   replace 템플릿은 지정한 emd파일을 현재 위치에 삽입합니다.<br>
 
-* embed
+* __embed__
   ```md
   @[replace](hello.cpp)
   ```
