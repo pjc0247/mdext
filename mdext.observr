@@ -1,4 +1,12 @@
+def convert path
+  puts path
+  `ruby mdext.rb #{path}`
+end
+
+Dir.glob("**/*.emd").each do |path|
+  convert path
+end
+
 watch("(.*\.emd)") do |md|
-  puts md[0]
-  `ruby mdext.rb #{md[0]}`
+  convert md[0]
 end
